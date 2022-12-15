@@ -1,0 +1,12 @@
+cabal-version: 2.0
+
+name:           hlint-use-underscore
+version:        0
+build-type:     Simple
+
+library
+  exposed-modules: WithPragma NoPragma
+  hs-source-dirs: src
+  build-depends: base >=4.7 && <5
+  default-language: Haskell2010
+  default-extensions: NumericUnderscores

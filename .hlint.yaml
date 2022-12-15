@@ -1,0 +1,3 @@
+- arguments: ['-XNumericUnderscores']
+- ignore: {}
+- error: {name: 'Use underscore'}
